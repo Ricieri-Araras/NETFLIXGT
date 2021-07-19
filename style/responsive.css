@@ -1,0 +1,37 @@
+                @media screen and (max-width: 700px) {
+            * {
+                margin: 0;
+                padding: 0;
+            }
+            header .container {
+                display: flex;
+                flex-direction: column;
+                width: 100%;
+                margin-left: 0;
+                height: auto;
+                align-items: center;
+                justify-content: center;
+            }
+            header .logo {
+                margin-left: 0;
+                .botoes {
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-around;
+                }
+                .botao {
+                    margin-top: 5px;
+                    width: 200px;
+                    height: 60px;
+                    ;
+                }
+                .carrossel-filmes {
+                    width: 600;
+                    justify-items: center;
+                }
+                .owl-carousel .owl-theme {
+                    justify-items: center;
+                }
+                .filme-principal container {
+                    width: 40%;
+                }
